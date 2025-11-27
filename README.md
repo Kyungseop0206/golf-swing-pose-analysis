@@ -31,7 +31,9 @@ From the reconstructed 3D sequence, the frmaes corresponding to the eight SwingN
 
 ## Tech Stack
 **Models**: SwingNet (golf swing event detection), HRNet (2D human pose estimation), MHFormer (transformer based 3D reconstruction)
+
 **Language & Libraries**: Python, PyTorch, OpenCV, NumPy, matplotlib
+
 **Tools**: GitHub, HuggingFace transformer, KT cloud (VScode)
 
 ## My Key Contribution
