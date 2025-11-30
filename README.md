@@ -12,6 +12,7 @@ The goal of this project was to build a prototype pipeline capable of generating
 The project focused on validating the working reconstruction pipeline itself, rather than model training, data collection, or production level optimization such as generating precise swing advice. 
 
 ## Pipeline Overview
+![golf pipeline](./image/golf_pipeline.png)
 ### 1. Video Input
 A user's golf swing video (single 2D camera from mobile) is loaded.
 
