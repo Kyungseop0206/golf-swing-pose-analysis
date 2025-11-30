@@ -24,10 +24,10 @@ SwingNet analyzes the full video to detect **eight key swing poses** and returns
 HRNet estimates 2D keypoints for every frame within the swing segment identified by SwingNet.
 
 ### 4. 3D Pose Reconstruction (MHFormer)
-The entire 2D key point sequence is passed into MHFormer, whihc reconstructs a temporally consistant 3D pose sequence using transformer based motion inference.
+The entire 2D key point sequence is passed into MHFormer, which reconstructs a temporally consistant 3D pose sequence using transformer based motion inference.
 
 ### 5. Event Based 3D Pose Extraction
-From the reconstructed 3D sequence, the frmaes corresponding to the eight SwingNet events are extracted. These 3D poses are then used to compare the user's swing with professional reference swings.
+From the reconstructed 3D sequence, the frames corresponding to the eight SwingNet events are extracted. These 3D poses are then used to compare the user's swing with professional reference swings.
 
 ## Tech Stack
 **Models**: SwingNet (golf swing event detection), HRNet (2D human pose estimation), MHFormer (transformer based 3D reconstruction)
