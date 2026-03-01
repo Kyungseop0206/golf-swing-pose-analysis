@@ -79,8 +79,7 @@ Using only a single 2D camera makes depth difficult to infer, leading to potenti
 The pose estimation models (HRNet, MHFormer) detect only human joints and do not capture the golf club, limiting swing analysis.
 
 ## Future Improvements
-- **Camera Guidelines for Consistency**
-  
+- **Camera Guidelines for Consistency**<br>
     Define recommended camera placement and angle to reduce depth ambiguity and improve 3D reconstruction stability.
 
 - **Club Detection Model**
