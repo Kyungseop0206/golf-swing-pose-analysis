@@ -48,7 +48,7 @@ I worked primarily on model research, defining the pipeline structure, and coord
 - Integrated 3 pretrained models (SwingNet, HRNet, MHFormer) into a single working pipeline by aligning their required data formats and connecting them.
 
 ### 3. Evaluating Technical Feasibility
-- Reviewed the outputs of the entire pipeline and identified technical constraints that impact single camera 3D reconstructuion, such as depth ambiguity and inhernet limitations of human pose models.
+- Reviewed the outputs of the entire pipeline and identified technical constraints that impact single camera 3D reconstruction, such as depth ambiguity and inhernet limitations of human pose models.
 - Summarized these findings for the client, clarifying what the PoC can realistically support and what would require additional development.
 
 
