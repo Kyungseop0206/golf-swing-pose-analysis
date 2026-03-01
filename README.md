@@ -80,10 +80,13 @@ The pose estimation models (HRNet, MHFormer) detect only human joints and do not
 
 ## Future Improvements
 - **Camera Guidelines for Consistency**
+  
     Define recommended camera placement and angle to reduce depth ambiguity and improve 3D reconstruction stability.
 
 - **Club Detection Model**
+  
     Integrate an object detection model, such as YOLO, to detect the clubhead and shaft, enabling club path and shaft angle analysis.
 
 - **Fine Tuning for Golf Specific Poses**
+  
     Train and fine tune pose models on golf specific datasets to improve accuracy.
